@@ -1,0 +1,30 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Fastlane IL Configuration",
+                "description": "Set up Fastlane IL polling",
+                "data": {
+                    "scan_interval": "Update frequency (minutes)"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "unknown": "Unexpected error"
+        },
+        "abort": {
+            "already_configured": "Device is already configured"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Fastlane IL Options",
+                "data": {
+                    "scan_interval": "Update frequency (minutes)"
+                }
+            }
+        }
+    }
+}
