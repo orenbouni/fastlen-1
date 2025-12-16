@@ -10,7 +10,7 @@ This custom integration scrapes the current price from [Fastlane.co.il](https://
 3.  Create a new folder inside `custom_components` named `fastlane_il`.
 4.  Copy all the files from this repository's `custom_components/fastlane_il` folder into your new `fastlane_il` folder.
 
-   **Structure test should look like this:**
+   **Structure test should look like this :**
    ```
    /config/custom_components/fastlane_il/
    ├── __init__.py
@@ -24,7 +24,7 @@ This custom integration scrapes the current price from [Fastlane.co.il](https://
        └── en.json
    ```
 
-### Step 2: Restart Home Assistant
+### Step 2: oren to test Restart Home Assistant
 1.  Go to **Developer Tools** > **YAML** > **Check Configuration** to make sure everything is safe.
 2.  Click **Restart** (or **Restart Home Assistant**).
 

@@ -21,6 +21,10 @@ _LOGGER = logging.getLogger(__name__)
 
 PLATFORMS: list[Platform] = [Platform.SENSOR]
 
+async def async_setup(hass: HomeAssistant, config: dict) -> bool:
+    """Set up the Fastlane IL component."""
+    return True
+
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Set up Fastlane IL from a config entry."""
     

@@ -22,7 +22,7 @@ STEP_USER_DATA_SCHEMA = vol.Schema(
     }
 )
 
-class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+class FastlaneConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Handle a config flow for Fastlane IL."""
 
     VERSION = 1
